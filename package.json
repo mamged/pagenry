@@ -1,0 +1,15 @@
+{
+  "name": "pagenry",
+  "version": "1.0.0",
+  "description": "Detecting page changes every interval of time (default 1min) to detect if page content has changed then it sends an email if change has been found",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@mamged",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^1.5.2",
+    "nodemailer": "^2.3.2"
+  }
+}
