@@ -9,14 +9,15 @@ module.exports = {};
 
 module.exports = function(config) {
     var interval, pageLength, fn = this;
-    config ? config : config = { alert: {} };
+    config ? config : config = {};
     config.url = config.url || defaultConfig.url,
     config.emailAccount = config.emailAccount || defaultConfig.emailAccount,
     config.pass = config.pass || defaultConfig.pass,
     config.interval = config.interval || defaultConfig.interval,
     config.sendingMail = config.sendingMail || defaultConfig.sendingMail,
-
+    
     //message option
+    config.alert ? config.alert : config.alert = {},
     config.alert.from = config.alert.from || defaultConfig.alert.from,
     config.alert.to = config.alert.to || defaultConfig.alert.to,
     config.alert.subject = config.alert.subject || defaultConfig.alert.subject,
