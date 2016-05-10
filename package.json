@@ -1,6 +1,6 @@
 {
   "name": "pagenry",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Detecting page changes every interval of time (default 1min) to detect if page content has changed then it sends an email if change has been found",
   "main": "server.js",
   "scripts": {
