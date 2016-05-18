@@ -23,7 +23,7 @@ HOW TO USE IT
 Example
 ---------------
 
-    var pagenry = require('./pagenry');
+    var pagenry = require('pagenry');
     var watcher = new pagenry({
         url: 'http://mashable.com',
     emailAccount: 'hello@gmail.com',
