@@ -40,5 +40,5 @@ Example
     watcher.start(function () {
         console.log('changed')
     });
-
+    watcher.sendAlertNow(); //send message immediatly
 Copyright 2016 Mohamed Amged (@mamged) - Released under the MIT [License](LICENSE)
