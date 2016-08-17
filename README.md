@@ -10,8 +10,7 @@ It's a node module that watching specific page and sends email notification .
 HOW TO USE IT
 ---------------
 
-    $ npm install
-    $ npm start
+    $ npm install pagenry --save
 
 > To use Gmail you may need to configure ["Allow Less Secure Apps"](https://www.google.com/settings/security/lesssecureapps) 
 > Also scroll down in this ["page"](https://www.google.com/settings/security/lesssecureapps) and find allow less secure apps
